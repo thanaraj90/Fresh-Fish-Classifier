@@ -20,7 +20,7 @@ This goes to show the importance of the freshness of the fish. In the same artic
   2. The model could also be deployed at live stream auctions and brick-and-mortar stalls using display-like devices to improve customer confidence.
 
   ### Success Factors:
-  The success factor for the solution is that it should work in a real-world environment with a **mean average precision of at least 85%**.
+  The success factor for the solution is that it should **work in a real-world environment** with a **mean average precision** of at least **85%**.
 
 ## Data - Collection:
 To collect reliable data and simulate actual market conditions. 3 fish were bought from the market and stored in a styrofoam box from days 0 -7. The melted ice in the styrofoam box was drained and topped up with fresh ice daily. The fish was photographed near the eye region from 8 different angles. A total of 300 images were captured throughout the 7 days.
@@ -56,16 +56,16 @@ A Steamlit app was built to put the model to the test. The model was able to det
 
 ## Files:
 
-The split_annoted_images segregates the annotated data to train, test, and split.
+The [split_annoted_images](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/EDA/Split_Annotated_images.ipynb) file segregates the annotated data to train, test, and split.
 
-The crop_images crops the fish eyes from the images and stores the cropped photos in folders based on their class.
+The [crop_images](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/EDA/crop_images.ipynb) file crops the fish eyes from the images and stores the cropped photos in folders based on their class.
 
-The eda_main file is where the eda is executed.
+The [eda_main](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/EDA/EDA_Main.ipynb) file is where the eda is executed.
 
-The augmentation file, augments the images using Albumentaions.
+The [augmentation](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/Training/Augmentation.ipynb), file augments the images using Albumentaions.
 
-The yolov8_training.ipynb is the file where the training was executed.
+The [yolov8_training](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/Training/yolov8_Training.ipynb) is the file where the training was executed.
 
-The results folder contains the results obtained from the training and includes the models weights.
+The [model outputs](https://github.com/thanaraj90/Fresh-Fish-Classifier/tree/main/model%20outputs) folder contains the results obtained from the training and includes the models weights.
 
-The app.py excutes the streamlit application that was build with the model.
+The [app.py](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/streamlit/app.py) excutes the streamlit application that was build with the model. Note that the videos have been removed from the videos directory due to storage limitations. Upload a videos folder with videos and set the path to these videos in [settings.py](https://github.com/thanaraj90/Fresh-Fish-Classifier/blob/main/streamlit/settings.py) to use the application.
