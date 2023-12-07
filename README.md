@@ -43,14 +43,18 @@ Day 0 was observed to usually have a low magnitude across all colour channels, a
 
 The origin data was then further augmented using albumentations. Only flip and rotational transformations were applied so as not to alter the image resolutions, dimensions, or colours. The original and augmented data were then labeled using roboflow and trained using Yolov8s.
 
+## Results
 Below are the results from the validation:
-*F1 Score*: **0.99** at 0.669 confidence 
 
-*MAP*: **0.995**: @0.5 IOU
+- *F1 Score*: **0.99** at 0.669 confidence 
+- *MAP*: **0.995**: @0.5 IOU
 
 A Steamlit app was built to put the model to the test. The model was able to detect and classify the seabass in 2 separate videos. These videos were taken at prime and sheng siong.
 
-## Future work:
+## Conclusion & Recommendations for Future Work:
+
+The success factors were met. Below are some recommendations for future work to bring more value in the food retail space for both the customers and businesses.
+
 - The model could be upscaled to a larger variety of fish
 - Explore using alternate imaging devices, such as hyperspectral imaging to make the model more robust, or expand the use cases to fruits and vegetables
 
