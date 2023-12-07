@@ -1,0 +1,14 @@
+path: '/content/gdrive/MyDrive/Capstone_real/Yolo_4_class/fish_class_2.v3i.yolov8'
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['Abv_Day-3', 'Day_0', 'Day_1', 'Day_2', 'Day_3']
+
+roboflow:
+  workspace: ga-niwwg
+  project: fish_class_2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ga-niwwg/fish_class_2/dataset/3
