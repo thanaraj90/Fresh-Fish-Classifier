@@ -56,7 +56,7 @@ A Steamlit app was built to put the model to the test. The model was able to det
 The success factors were met. Below are some recommendations for future work to bring more value in the food retail space for both the customers and businesses.
 
 - The model could be upscaled to a larger variety of fish
-- Explore using alternate imaging devices, such as hyperspectral imaging to make the model more robust, or expand the use cases to fruits and vegetables
+- Explore using alternate imaging devices, such as multispectral imaging to make the model more robust, or expand the use cases to fruits and vegetables
 
 ## Files:
 
